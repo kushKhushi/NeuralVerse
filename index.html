@@ -1,1 +1,76 @@
-<!DOCTYPE html><html><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width,initial-scale=1'><title>NeuralVerse</title><link rel='stylesheet' href='style.css'></head><body><nav><h2>NeuralVerse</h2><div><a href='#features'>Features</a> <a href='#timeline'>Roadmap</a> <a href='#contact'>Contact</a></div></nav><section class='hero'><h1>THE FUTURE IS HUMAN × MACHINE</h1><p>Exploring the convergence of AI and cybernetic evolution.</p><button onclick="document.getElementById('features').scrollIntoView({behavior:'smooth'})">Explore Features</button> <button onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Join The Future</button></section><section id='features'><h2>Features</h2><div class='grid'><div class='card'>Neural Interface</div><div class='card'>AI Integration</div><div class='card'>Cyber Security</div><div class='card'>Quantum Processing</div></div></section><section id='timeline'><h2>Roadmap</h2><ul><li>2025 Research</li><li>2026 Prototype</li><li>2028 Deployment</li><li>2030 Expansion</li></ul></section><section id='contact'><h2>Contact</h2><form id='f'><input required placeholder='Name'><input required type='email' placeholder='Email'><textarea required placeholder='Message'></textarea><button type='submit'>Submit</button></form><p id='msg'></p></section><script src='script.js'></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NeuralVerse</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="particles"></div>
+
+<nav>
+<div class="logo">NeuralVerse</div>
+<div>
+<a href="#features">Features</a>
+<a href="#stats">Stats</a>
+<a href="#roadmap">Roadmap</a>
+<a href="#contact">Contact</a>
+</div>
+</nav>
+
+<section class="hero">
+<h1>THE FUTURE IS HUMAN × MACHINE</h1>
+<p>Where artificial intelligence, cybernetics, and innovation converge.</p>
+<div class="btns">
+<button onclick="scrollToSection('features')">Explore Features</button>
+<button onclick="scrollToSection('contact')">Join The Future</button>
+</div>
+</section>
+
+<section id="features">
+<h2>Core Technologies</h2>
+<div class="cards">
+<div class="card">🧠 Neural Interface</div>
+<div class="card">🤖 AI Integration</div>
+<div class="card">🔒 Cyber Security</div>
+<div class="card">⚛ Quantum Processing</div>
+<div class="card">🧬 Bio Augmentation</div>
+<div class="card">🌐 Smart Networks</div>
+</div>
+</section>
+
+<section id="stats">
+<h2>Global Impact</h2>
+<div class="cards">
+<div class="card counter"><span data-target="10">0</span>M+ Connections</div>
+<div class="card counter"><span data-target="500">0</span>+ Cities</div>
+<div class="card counter"><span data-target="99">0</span>.9% Security</div>
+<div class="card counter"><span data-target="120">0</span>+ Labs</div>
+</div>
+</section>
+
+<section id="roadmap">
+<h2>Roadmap</h2>
+<div class="timeline">
+<div>2025 • Research Phase</div>
+<div>2026 • Prototype Launch</div>
+<div>2028 • Global Deployment</div>
+<div>2030 • Neural Civilization</div>
+</div>
+</section>
+
+<section id="contact">
+<h2>Contact NeuralVerse</h2>
+<form id="contactForm">
+<input type="text" placeholder="Your Name" required>
+<input type="email" placeholder="Email Address" required>
+<textarea placeholder="Message" required></textarea>
+<button type="submit">Transmit Message</button>
+</form>
+<p id="success"></p>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
